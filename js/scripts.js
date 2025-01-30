@@ -1,3 +1,5 @@
+const year = new Date().getFullYear();
+document.getElementById('year').textContent = year;
 document.addEventListener('DOMContentLoaded', () => {
     // Intersection Observer for section animations
     const sections = document.querySelectorAll('section');

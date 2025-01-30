@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pymba - Soluciones informáticas">
+    <meta name="keywords" content="pymba, software, desarrollo, aplicaciones">
+    <meta name="author" content="Pymba">
     <title>Pymba - Soluciones informáticas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imgs/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Pymba</div>
+            <div class="logo">
+                <img class="img-logo" src="imgs/horizontal.png" alt="Pymba" />
+            </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#about">Acerca</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -57,18 +63,18 @@
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
+        <h2>Contacto</h2>
         <form class="contact-form">
-            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Nombre" required>
             <input type="email" placeholder="Email" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit" class="submit-button">Send Message</button>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="submit-button">Enviar</button>
         </form>
     </section>
 
     <footer>
         <div class="footer-content">
-            <div class="footer-logo">Pymba</div>
+            <img class="img-logo" src="imgs/horizontal.png" alt="Pymba" />
             <div class="social-links">
                 <a href="#"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
@@ -76,9 +82,9 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Pymba. All rights reserved.</p>
+            <p>&copy; <b id="year"></b> Pymba. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
